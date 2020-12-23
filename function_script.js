@@ -31,6 +31,7 @@ function checkInput() {
     }
     // Call change() to set button's value
   } else {
+    // else 
     proposal = [
       "orange.fr",
       "outlook.fr",
