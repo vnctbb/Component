@@ -24,17 +24,11 @@ window.addEventListener('DOMContentLoaded', function() {
   });
 
   // When a button is clicked, set the input's value
-  document.getElementsByClassName('prop')[0].addEventListener('click', function(){
-    setInput(0);
-  });
-  
-  document.getElementsByClassName('prop')[1].addEventListener('click', function(){
-    setInput(1);
-  });
-
-  document.getElementsByClassName('prop')[2].addEventListener('click', function(){
-    setInput(2);
-  });
+  for(let i = 0; i < 3; i++){
+    document.getElementsByClassName('prop')[i].addEventListener('click', function(){
+      setInput(i);
+    });
+  }
 });
 
 
