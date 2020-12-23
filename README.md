@@ -1,2 +1,2 @@
 # Component
-Test visant à faire un composant proposant des FAI sur un input
+Composant proposant des FAI sur un input
