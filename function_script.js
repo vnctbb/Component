@@ -30,8 +30,14 @@ function checkInput() {
       ];
     }
     // Call change() to set button's value
-    change();
-    }
+  } else {
+    proposal = [
+      "orange.fr",
+      "outlook.fr",
+      "gmail.com",
+    ];
+  }
+  change();
 };
 
 // Function that sets button's value
@@ -58,6 +64,7 @@ function setInput (index) {
     if(myInput.value != ''){
       myInput.value = `${myInput.value}@${proposal[index]}`;
       // set input's value with an @
+      proposal = []; // proposal empty
     }
   }
   change();
