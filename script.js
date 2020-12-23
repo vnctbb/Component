@@ -4,8 +4,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
   // When the input is focus
   myInput.addEventListener('focus', function() {
-    // call change
-    change();
     // set focus to true
     focus = true;
   });
